@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chocolate_background"
+    android:orientation="vertical"
+    tools:context="com.example.candy.chocolate">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"
+        android:layout_margin="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_margin="16sp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ruby" />
+
+        <Button
+            android:id="@+id/btnRuby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reveal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ivCouverture"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_margin="16sp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/couverture" />
+
+        <Button
+            android:id="@+id/btnCouverture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reveal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ivDark"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_margin="16sp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dark_chocolate" />
+
+        <Button
+            android:id="@+id/btnDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reveal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ivMilk"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_margin="16sp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/milk" />
+
+        <Button
+            android:id="@+id/btnMilk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reveal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ivWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_margin="16sp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/white" />
+
+        <Button
+            android:id="@+id/btnWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reveal" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
